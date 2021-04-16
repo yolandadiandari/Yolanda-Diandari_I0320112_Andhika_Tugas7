@@ -1,18 +1,18 @@
-import sys
-
-def faktorial(n):
-    if n==0:
-        return 1
-    else:
-        return n* faktorial(n-1)
+def panggil(func):
+    return func
+def helloworld():
+    return "HELLO WORLD"
 def main():
-    bil = int(input("Masukkan bilangan="))
+    daftarnama = ["Adi, Cahyo, Budi, Dedi"]
+    print("Keadaan awal")
+    print(daftarnama)
 
-    if bil < 0:
-        print("ERROR")
-        sys.exit(1)
+    print("\nMenggunakan sorted():")
+    print(sorted(daftarnama))
 
-    print("%d! = %d" %(bil, faktorial(bil)))
+    daftarnama.sort(key=lambda n:n.lower())
 
+    print("\nKeadaan akhir:")
+    print(daftarnama)
 if __name__ == '__main__':
     main()

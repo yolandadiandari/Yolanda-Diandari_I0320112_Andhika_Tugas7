@@ -1,14 +1,6 @@
-#Variabel Global
-nama = "Posi"
-tahun = "2018"
-
-def help():
-    #Variabel Lokal
-    nama = "Lab Posi"
-    tahun = "18"
-    print("nama= %s" % nama)
-    print("tahun= %s" % tahun)
-
-print("nama= %s" % nama)
-print("tahun= %s" % tahun)
-help()
+#Fungsi dengan Nilai Balik
+x = 10
+y = 1
+print("x = ", x)
+print("y = ", y)
+print("hasil (x+y)= ", x+y)

@@ -1,3 +1,3 @@
 str = "hello world"
-s = str.center(20,'*')
+s = str.capitalize()
 print(s)

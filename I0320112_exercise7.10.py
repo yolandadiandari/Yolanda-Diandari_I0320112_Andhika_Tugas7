@@ -1,5 +1,3 @@
 str = "hello world"
-a = str.count('l')
-b = str.count('o')
-print("jumlah huruf l=",a)
-print("jumlah huruf o=",b)
+s = str.center(20,'*')
+print(s)

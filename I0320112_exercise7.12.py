@@ -1,4 +1,3 @@
 str = "Hello world"
-print("str:" + str)
-print("str find o=", str.find('o'))
-print("str find l =", str.find('l'))
+print(str.endswith("world"))
+print(str.endswith("world!"))

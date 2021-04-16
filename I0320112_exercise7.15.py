@@ -1,6 +1,4 @@
 str = "Hello world"
-str2 = str.upper()
-str3 = str.lower()
-print(str)
-print(str2)
-print(str3)
+print("str: " + str)
+print("str replace Hello= ", str.replace("Hello", "Hai"))
+print("str replace world= ", str.replace("world", "Dunia"))

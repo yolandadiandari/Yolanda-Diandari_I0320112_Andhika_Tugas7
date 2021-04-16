@@ -1,8 +1,14 @@
-import math
-def main():
-    x = math.sqrt(4)
-    y = math.sqrt(81)
-    print("x=", x)
-    print("y=", y)
-main()
+#Variabel Global
+nama = "Posi"
+tahun = "2018"
 
+def help():
+    #Variabel Lokal
+    nama = "Lab Posi"
+    tahun = "18"
+    print("nama= %s" % nama)
+    print("tahun= %s" % tahun)
+
+print("nama= %s" % nama)
+print("tahun= %s" % tahun)
+help()

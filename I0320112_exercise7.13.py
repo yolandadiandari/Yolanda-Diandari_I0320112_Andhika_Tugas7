@@ -1,4 +1,4 @@
 str = "Hello world"
-print("str:", + str)
-print("str index o =", str.index('o'))
-print("str indeks l=", str.index('l'))
+print("str:" + str)
+print("str find o=", str.find('o'))
+print("str find l =", str.find('l'))
