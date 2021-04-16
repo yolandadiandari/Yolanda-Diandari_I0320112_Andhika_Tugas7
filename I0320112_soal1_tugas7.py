@@ -8,7 +8,7 @@ teks = input("Masukkan Teks :")
 print("teks dalam huruf kapital :", teks.upper())
 
 #fungsi 3 : menghitung jumlah huruf tertentu
-print("jumlah huruf a dalam teks:", teks.count(input()))
+print("jumlah huruf tertentu dalam teks:", teks.count(input()))
 
 #fungsi 4 : menghitung panjang teks
 print("panjang teks yang dituliskan adalah:", len(teks))
